@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background: linear-gradient(90deg, #ffffff,#a6a6a6 );
+}
+
+/* Aplicar la fuente globalmente */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* O aplicar a un elemento específico */
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Usar el peso 700 de la fuente */
+   
+  }
+
+  /* Estilo para el botón Registrarse */
+.btn-registrarse {
+  background-color: transparent;
+  border: 2px solid #000;
+  /* Borde negro */
+  color: #000;
+  /* Tipografía negra */
+  border-radius: 25px;
+  /* Bordes redondeados */
+  padding: 8px 20px;
+  font-weight: bold;
+}
+
+/* Estilo para el botón Iniciar sesión */
+.btn-iniciar-sesion {
+  background-color: #16c5a9;
+  /* Azul específico */
+  color: #fff;
+  /* Tipografía blanca */
+  border-radius: 25px;
+  /* Bordes redondeados */
+  padding: 8px 20px;
+  font-weight: bold;
+}

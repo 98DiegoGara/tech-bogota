@@ -1,0 +1,42 @@
+img{
+    width: 40pc;
+    margin-top: 8pc;
+}
+.con{
+    background-color: white;
+    padding: 3pc 3pc 2pc 3pc;
+    border-radius: 50px;
+    -webkit-box-shadow: -1px 3px 5px 4px rgba(0,0,0,0.26);
+-moz-box-shadow: -1px 3px 5px 4px rgba(0,0,0,0.26);
+box-shadow: -1px 3px 5px 4px rgba(0,0,0,0.26);
+   
+}
+.mg1{
+    margin-left: 10%;
+    margin-top: 22%;
+}
+
+/* Estilo para el botón Registrarse */
+.btn-registrarse {
+    background-color: transparent;
+    border: 2px solid #000;
+    /* Borde negro */
+    color: #000;
+    /* Tipografía negra */
+    border-radius: 25px;
+    /* Bordes redondeados */
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+/* Estilo para el botón Iniciar sesión */
+.btn-iniciar-sesion {
+    background-color: #16c5a9;
+    /* Azul específico */
+    color: #fff;
+    /* Tipografía blanca */
+    border-radius: 25px;
+    /* Bordes redondeados */
+    padding: 8px 20px;
+    font-weight: bold;
+}

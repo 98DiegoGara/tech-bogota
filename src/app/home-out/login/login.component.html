@@ -1,0 +1,106 @@
+<section>
+    <div class="col-xl-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <img src="../../../assets/img/LOGO.svg" alt="">
+                </div>
+                <div class="col-xl-6 ">
+                    <div class="col-xl-10  mg1" *ngIf="!isRegister">
+                        <div class="container con">
+                            <h3 class="text-center">Iniciar sesión</h3>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" value="prueba@prueba.com.co">
+                                    <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con
+                                        nadie más.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        value="prueba@prueba.com.co">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <button type="submit" class="btn btn-iniciar-sesion" (click)="login()">Iniciar
+                                        sesión</button>
+                                    <button type="button" class="btn btn-registrarse me-2"
+                                        (click)="register()">Registrarse</button>
+                                    <button class="btn btn-registrarse me-2" (click)="back()">Regresar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-10  mg1" *ngIf="isRegister">
+                        <div class="container con">
+                            <h3 class="text-center">Registro</h3>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="fullName" class="form-label">Nombre completo</label>
+                                    <input type="text" class="form-control" id="fullName" value="Juan Pérez"
+                                        placeholder="Ingresa tu nombre completo">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        value="juan.perez@example.com" aria-describedby="emailHelp"
+                                        placeholder="Ingresa tu correo">
+                                    <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con
+                                        nadie más.</div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        value="12345678" placeholder="Crea una contraseña">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="confirmPassword" class="form-label">Confirmar contraseña</label>
+                                    <input type="password" class="form-control" id="confirmPassword" value="12345678"
+                                        placeholder="Confirma tu contraseña">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="country" class="form-label">País</label>
+                                    <select id="country" class="form-select">
+                                        <option value="colombia" selected>Colombia</option>
+                                        <option value="mexico">México</option>
+                                        <option value="argentina">Argentina</option>
+                                        <option value="chile">Chile</option>
+                                        <option value="otros">Otros</option>
+                                    </select>
+                                </div>
+
+                                <br>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="termsCheck" checked>-in
+                                    <label class="form-check-label" for="termsCheck">Acepto los <a href="#">términos y
+                                            condiciones</a></label>
+                                </div>
+
+                                <br>
+                                <div class="d-flex justify-content-between">
+                                    <button type="submit" class="btn btn-iniciar-sesion"
+                                        (click)="loginuser()">Registrar</button>
+                                    <button class="btn btn-registrarse me-2" (click)="loginuser()">Regresar</button>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

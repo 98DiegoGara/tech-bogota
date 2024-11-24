@@ -1,0 +1,32 @@
+nav{
+    background: linear-gradient(90deg, #ffffff,#a6a6a6 );
+}
+img{
+    width: 24%;
+    padding: 0pc 0pc 0pc 2pc;
+}
+
+/* Estilo para el botón Registrarse */
+.btn-registrarse {
+    background-color: transparent;
+    border: 2px solid #000;
+    /* Borde negro */
+    color: #000;
+    /* Tipografía negra */
+    border-radius: 25px;
+    /* Bordes redondeados */
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+/* Estilo para el botón Iniciar sesión */
+.btn-iniciar-sesion {
+    background-color: #16c5a9;
+    /* Azul específico */
+    color: #fff;
+    /* Tipografía blanca */
+    border-radius: 25px;
+    /* Bordes redondeados */
+    padding: 8px 20px;
+    font-weight: bold;
+}
