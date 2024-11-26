@@ -9,8 +9,9 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <!-- Botones Registrarse e Iniciar sesión -->
       <div class="d-flex ms-auto">
-        <button class="btn btn-registrarse me-2" (click)="login()">Registrarse</button>
-        <button class="btn btn-iniciar-sesion" (click)="login()">Iniciar sesión</button>
+        <button class="btn btn-registrarse me-2" (click)="login()" *ngIf="!validationLogin">Registrarse</button>
+        <button class="btn btn-iniciar-sesion" (click)="login()" *ngIf="!validationLogin">Iniciar sesión</button>
+        <button class="btn btn-iniciar-sesion" (click)="login()" *ngIf="validationLogin">Cerrar sesión</button>
       </div>
     </div>
   </div>

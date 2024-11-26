@@ -1,0 +1,67 @@
+.sectionone {
+    background-color: #16c5a9;
+
+    h1 {
+        color: #073649;
+        font-weight: bold;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.mat-stepper-vertical {
+    margin-top: 8px;
+}
+
+.mat-mdc-form-field {
+    margin-top: 16px;
+}
+
+.sectionDos {
+    background-color: white;
+    padding: 4pc 4pc 10pc 10pc;
+    .circle-number {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #000;
+        border: 2px solid #000;
+    }
+
+    .list-group-item {
+        border: none;
+        padding: 20px 0;
+        /* Espaciado superior e inferior */
+    }
+
+    .list-group-item+.list-group-item {
+        border-top: 1px solid #e9ecef;
+        /* Línea divisoria */
+        margin-top: 10px;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+        /* Ajusta el tamaño del título */
+        color: #000;
+    }
+
+    p {
+        font-size: 0.95rem;
+        /* Ajusta el tamaño del texto descriptivo */
+        color: #6c757d;
+    }
+
+    .kcursor{
+        cursor: pointer;
+    }
+
+}
